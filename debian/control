@@ -1,0 +1,19 @@
+Source: azure-sdk-for-cpp
+Maintainer: Jeremi Piotrowski <TODO>
+Build-Depends: cmake, dh-cmake, dh-cmake-compat (= 1), dh-sequence-cmake, debhelper-compat (= 12), libcurl4-openssl-dev, libssl-dev, libxml2-dev
+Standards-Version: 4.1.5
+Section: misc
+Priority: extra
+
+Package: azure-sdk-for-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: azure-sdk-for-cpp - libraries
+ This package contains the shared libraries for the azure-sdk-for-cpp project.
+
+Package: azure-sdk-for-cpp-dev
+Architecture: any
+Depends: azure-sdk-for-cpp (= ${binary:Version}), ${misc:Depends}
+Description: azure-sdk-for-cpp - development
+ This package contains the development files for the azure-sdk-for-cpp project.
+

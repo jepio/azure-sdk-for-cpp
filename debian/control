@@ -13,7 +13,7 @@ Description: azure-sdk-for-cpp - libraries
 
 Package: azure-sdk-for-cpp-dev
 Architecture: any
-Depends: azure-sdk-for-cpp (= ${binary:Version}), ${misc:Depends}
+Depends: azure-sdk-for-cpp (= ${binary:Version}), ${misc:Depends}, libcurl4-openssl-dev, libssl-dev, libxml2-dev
 Description: azure-sdk-for-cpp - development
  This package contains the development files for the azure-sdk-for-cpp project.
 

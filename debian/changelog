@@ -1,5 +1,5 @@
-azure-sdk-for-cpp (0.0.0-1) UNRELEASED; urgency=medium
+azure-sdk-for-cpp (0.0.0-2) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: TODO)
+  * update dev dependencies
 
- -- jpiotrowski <TODO>  Fri, 22 Apr 2022 11:30:59 +0200
+ -- jpiotrowski <jpiotrowski@jpiotrowski-Surface-Book-3>  Tue, 03 May 2022 10:29:52 +0200
